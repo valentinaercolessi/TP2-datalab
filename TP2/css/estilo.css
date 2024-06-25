@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: "Secular One", sans-serif;
+    font-size:26px;
+    color: #52807e ;
+    font-weight: 800;
+
+
+}
+
+h3 {
+    color: #a3d3d6;
+    font-size: 13px;
+    font-family: "Hind", sans-serif;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+h2 {
+
+    font-family: "Secular One", sans-serif;
+    font-size: 15px;
+    color: #d97464;
+    text-align: center;
+    font-weight: 520;
+    margin-right: 140px;
+    margin-left: 130px;
+
+
+}
+
+header a{
+    background-color: rgba(156, 208, 205, 0.437);
+    color: rgb(127, 155, 255);
+    border: 2px dashed rgb(127, 155, 255);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 155;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    margin: auto;
+    line-height: 30px;
+    transition: all 5s;
+    animation-name: cambio;
+    animation-iteration-count: infinite;
+  
+  
+}
+
+
+
+p {
+    font-family:"Hind", sans-serif;
+    font-size: 18px;
+    color: rgb(123, 115, 107);
+    text-align: justify;
+    margin-left: 130px;
+    margin-right: 140px;
+    font-weight: 100;
+   
+}
+
+a {
+    text-align: center;
+    color: #d97464;
+    font-family: "Hind", sans-serif;
+    font-size: small;
+  
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+
+
+}
+
+a:hover {
+    color: rgb(127, 155, 255);
+    font-weight: 10;
+    font-style: italic;
+}
+
+
+div {
+    width: 50%;
+}
+
+
+img {
+    width: 80%; 
+    margin: 0 auto; 
+    margin-bottom: 30px; 
+    display: block; 
+    border-radius: 5%; 
+}
+
+video {
+    width: 50%;
+    display: block;
+    margin: 40px auto;
+} 
+
+footer {
+    width: 100%; 
+    height: 20vh; 
+    padding-top: 20px;
+    text-align: center; 
+    font-size: 16px; 
+    font-family: Arial, sans-serif; 
+    color: #d97464; 
+    background-image: url(../imagenes/back.jpeg);
+    background-size: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+ 
+}
+
